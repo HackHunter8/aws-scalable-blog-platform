@@ -15,3 +15,7 @@ output "igw_id" {
   value       = aws_internet_gateway.igw.id
 }
 
+output "alb_dns_name" {
+  value = aws_lb.app_alb.dns_name
+}
+
